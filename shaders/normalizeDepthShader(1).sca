@@ -1,0 +1,11 @@
+#import <depth>
+
+// @param depthTexture Depth texture
+// @param cameraProjectionMatrix Camera projection matrix
+// @return Vec4 where the red channel contains the depth in Normalized Device Coordinates
+vec4 main(optional<std::Texture2d> depthTexture, mat4 cameraProjectionMatrix) {
+    vec2 uv = std::getVertexTexCoord();
+    float rawDepth = depthTexture.sample(uv).r.valueOr(9999.0);
+    float normDepth = std::normalizeDepth(rawDepth, cameraProjectionMatrix);
+    return normDepth.x000;
+}

@@ -1,0 +1,419 @@
+{
+  "usingPatchesV2": true,
+  "version": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 170
+  },
+  "visual_programming": {
+    "connections": [
+      {
+        "fromPatch": "template_patch_model:170674-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:171916-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "modelName": "patch_connection_model",
+        "toPatch": "port_forwarding_patch_model:170516-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "toPort": "14709335212662774067"
+      },
+      {
+        "fromPatch": "template_patch_model:170718-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "fromPort": "1001",
+        "identifier": "patch_connection_model:171920-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:170602-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "template_patch_model:170602-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:171922-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:170558-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "template_patch_model:170558-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:171924-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:170674-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "template_patch_model:171310-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:171926-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:170718-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "toPort": "102"
+      },
+      {
+        "fromPatch": "template_patch_model:171310-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:171928-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:170602-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "toPort": "2"
+      },
+      {
+        "fromPatch": "port_forwarding_patch_model:171444-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "fromPort": "13635942228079695314",
+        "identifier": "patch_connection_model:171932-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:171310-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "template_patch_model:170718-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "fromPort": "1002",
+        "identifier": "patch_connection_model:171934-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:171486-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "toPort": "3"
+      },
+      {
+        "fromPatch": "template_patch_model:171486-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:171936-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "modelName": "patch_connection_model",
+        "toPatch": "port_forwarding_patch_model:171558-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "toPort": "3278239031671883944"
+      },
+      {
+        "fromPatch": "port_forwarding_patch_model:170474-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "fromPort": "4691250081699407682",
+        "identifier": "patch_connection_model:171940-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:171600-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "toPort": "2"
+      },
+      {
+        "fromPatch": "template_patch_model:171600-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:171942-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:171672-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "template_patch_model:171672-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:171944-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:170718-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "toPort": "101"
+      },
+      {
+        "fromPatch": "template_patch_model:171672-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:171946-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:171486-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "toPort": "2"
+      },
+      {
+        "fromPatch": "template_patch_model:170718-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "fromPort": "1002",
+        "identifier": "patch_connection_model:171948-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:171730-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "toPort": "2"
+      },
+      {
+        "fromPatch": "template_patch_model:171730-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:171950-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "modelName": "patch_connection_model",
+        "toPatch": "port_forwarding_patch_model:171802-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "toPort": "14643676373727074792"
+      }
+    ],
+    "patches": [
+      {
+        "groupDescription": "",
+        "groupName": "Game Timer",
+        "identifier": "patch_group_model:170458-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "inputPorts": [
+          "patch_input_port_model:171844-259c8eea-32bc-4a7f-8baf-f4660900920a",
+          "patch_input_port_model:171858-259c8eea-32bc-4a7f-8baf-f4660900920a"
+        ],
+        "modelName": "patch_group_model",
+        "name": "Game Timer",
+        "outputPorts": [
+          "patch_output_port_model:171872-259c8eea-32bc-4a7f-8baf-f4660900920a",
+          "patch_output_port_model:171886-259c8eea-32bc-4a7f-8baf-f4660900920a",
+          "patch_output_port_model:171900-259c8eea-32bc-4a7f-8baf-f4660900920a"
+        ],
+        "position": [
+          572,
+          644
+        ],
+        "subpatches": [
+          "port_forwarding_patch_model:170474-259c8eea-32bc-4a7f-8baf-f4660900920a",
+          "port_forwarding_patch_model:170516-259c8eea-32bc-4a7f-8baf-f4660900920a",
+          "port_forwarding_patch_model:171444-259c8eea-32bc-4a7f-8baf-f4660900920a",
+          "port_forwarding_patch_model:171558-259c8eea-32bc-4a7f-8baf-f4660900920a",
+          "port_forwarding_patch_model:171802-259c8eea-32bc-4a7f-8baf-f4660900920a",
+          "template_patch_model:170558-259c8eea-32bc-4a7f-8baf-f4660900920a",
+          "template_patch_model:170602-259c8eea-32bc-4a7f-8baf-f4660900920a",
+          "template_patch_model:170674-259c8eea-32bc-4a7f-8baf-f4660900920a",
+          "template_patch_model:170718-259c8eea-32bc-4a7f-8baf-f4660900920a",
+          "template_patch_model:171310-259c8eea-32bc-4a7f-8baf-f4660900920a",
+          "template_patch_model:171486-259c8eea-32bc-4a7f-8baf-f4660900920a",
+          "template_patch_model:171600-259c8eea-32bc-4a7f-8baf-f4660900920a",
+          "template_patch_model:171672-259c8eea-32bc-4a7f-8baf-f4660900920a",
+          "template_patch_model:171730-259c8eea-32bc-4a7f-8baf-f4660900920a"
+        ],
+        "values": []
+      },
+      {
+        "identifier": "port_forwarding_patch_model:170474-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "modelName": "port_forwarding_patch_model",
+        "name": "Start",
+        "position": [
+          -700,
+          -244
+        ],
+        "values": []
+      },
+      {
+        "identifier": "port_forwarding_patch_model:170516-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "modelName": "port_forwarding_patch_model",
+        "name": "Timer String",
+        "position": [
+          418.4189815699837,
+          22.314214035994723
+        ],
+        "values": []
+      },
+      {
+        "identifier": "port_forwarding_patch_model:171444-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "modelName": "port_forwarding_patch_model",
+        "name": "Game Length",
+        "position": [
+          -730,
+          -52
+        ],
+        "values": []
+      },
+      {
+        "identifier": "port_forwarding_patch_model:171558-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "modelName": "port_forwarding_patch_model",
+        "name": "GAME ON/OFF",
+        "position": [
+          364,
+          -340
+        ],
+        "values": []
+      },
+      {
+        "identifier": "port_forwarding_patch_model:171802-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "modelName": "port_forwarding_patch_model",
+        "name": "Game Over",
+        "position": [
+          660,
+          -172
+        ],
+        "values": []
+      },
+      {
+        "identifier": "template_patch_model:170558-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "modelName": "template_patch_model",
+        "name": "Round",
+        "position": [
+          93.21774570017857,
+          94.38354662343852
+        ],
+        "templateId": "builtin.mathRound",
+        "values": [],
+        "variantInfo": "float"
+      },
+      {
+        "identifier": "template_patch_model:170602-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "modelName": "template_patch_model",
+        "name": "To Range",
+        "position": [
+          -43.528964877016335,
+          -114.87477011235433
+        ],
+        "templateId": "builtin.mathToRange",
+        "values": [
+          {
+            "port": "2",
+            "value": {
+              "t": "double",
+              "v": 15
+            }
+          },
+          {
+            "port": "3",
+            "value": {
+              "t": "double",
+              "v": 0
+            }
+          }
+        ],
+        "variantInfo": "float"
+      },
+      {
+        "identifier": "template_patch_model:170674-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "modelName": "template_patch_model",
+        "name": "To String",
+        "position": [
+          148.41898156998383,
+          22.314214035994723
+        ],
+        "templateId": "builtin.toStringComponent",
+        "values": [],
+        "variantInfo": "float"
+      },
+      {
+        "identifier": "template_patch_model:170718-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "modelName": "template_patch_model",
+        "name": "Animation",
+        "position": [
+          -248.41898156998383,
+          -194.38354662343852
+        ],
+        "templateId": "builtin.group.animation",
+        "values": [
+          {
+            "port": "102",
+            "value": {
+              "t": "double",
+              "v": 15
+            }
+          }
+        ]
+      },
+      {
+        "identifier": "template_patch_model:171310-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "modelName": "template_patch_model",
+        "name": "Game Length",
+        "position": [
+          -460,
+          -52
+        ],
+        "templateId": "builtin.value",
+        "values": [],
+        "variantInfo": "float"
+      },
+      {
+        "identifier": "template_patch_model:171486-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "modelName": "template_patch_model",
+        "name": "Switch",
+        "position": [
+          164,
+          -340
+        ],
+        "templateId": "builtin.toggle",
+        "values": []
+      },
+      {
+        "identifier": "template_patch_model:171600-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "modelName": "template_patch_model",
+        "name": "Switch",
+        "position": [
+          -604,
+          -196
+        ],
+        "templateId": "builtin.toggle",
+        "values": []
+      },
+      {
+        "identifier": "template_patch_model:171672-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "modelName": "template_patch_model",
+        "name": "Pulse",
+        "position": [
+          -412,
+          -196
+        ],
+        "templateId": "builtin.pulse",
+        "values": []
+      },
+      {
+        "identifier": "template_patch_model:171730-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "modelName": "template_patch_model",
+        "name": "Switch",
+        "position": [
+          356,
+          -172
+        ],
+        "templateId": "builtin.toggle",
+        "values": []
+      }
+    ],
+    "ports": [
+      {
+        "defaultValue": {
+          "t": "bool",
+          "v": false
+        },
+        "forwardingPatch": "port_forwarding_patch_model:170474-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "identifier": "patch_input_port_model:171844-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "modelName": "patch_input_port_model",
+        "portDescription": "Start the animation.",
+        "portName": "Start",
+        "portTag": "4691250081699407682",
+        "portType": "pulse",
+        "widgetStyle": "default"
+      },
+      {
+        "defaultValue": {
+          "t": "double",
+          "v": 15
+        },
+        "forwardingPatch": "port_forwarding_patch_model:171444-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "identifier": "patch_input_port_model:171858-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "modelName": "patch_input_port_model",
+        "portDescription": "The value you want to use.",
+        "portName": "Game Length",
+        "portTag": "13635942228079695314",
+        "portType": "float",
+        "widgetStyle": "default"
+      },
+      {
+        "defaultValue": {
+          "t": "string",
+          "v": ""
+        },
+        "forwardingPatch": "port_forwarding_patch_model:170516-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "identifier": "patch_output_port_model:171872-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "modelName": "patch_output_port_model",
+        "portDescription": "The input value converted into a text string.",
+        "portName": "Timer String",
+        "portTag": "14709335212662774067",
+        "portType": "text",
+        "widgetStyle": "default"
+      },
+      {
+        "defaultValue": {
+          "t": "bool",
+          "v": false
+        },
+        "forwardingPatch": "port_forwarding_patch_model:171558-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "identifier": "patch_output_port_model:171886-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "modelName": "patch_output_port_model",
+        "portDescription": "A signal that's on or off. The default is off.",
+        "portName": "GAME ON/OFF",
+        "portTag": "3278239031671883944",
+        "portType": "bool",
+        "widgetStyle": "default"
+      },
+      {
+        "defaultValue": {
+          "t": "bool",
+          "v": false
+        },
+        "forwardingPatch": "port_forwarding_patch_model:171802-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "identifier": "patch_output_port_model:171900-259c8eea-32bc-4a7f-8baf-f4660900920a",
+        "modelName": "patch_output_port_model",
+        "portDescription": "A signal that's on or off. The default is off.",
+        "portName": "Game Over",
+        "portTag": "14643676373727074792",
+        "portType": "bool",
+        "widgetStyle": "default"
+      }
+    ]
+  }
+}
